@@ -5,8 +5,10 @@ import classNames from 'classnames/bind';
 const cx = classNames.bind(styles);
 
 const AuthForm = () => (
-  <div>
-    AuthForm
+  <div className={cx('auth-form')}>
+    <div className={cx('table')}>
+    
+    </div>
   </div>
 );
 
