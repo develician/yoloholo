@@ -1,0 +1,29 @@
+
+@import 'utils';
+
+.header {
+   
+    background: $oc-violet-5;
+    .contents {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            margin-left: 1rem;
+            color: white;
+            font-size: 3rem;
+            user-select: none;
+            cursor: pointer;
+
+            @include media("<=medium") {
+                font-size: 1.5rem;
+            }
+        }
+
+        .right {
+            margin-left: auto;
+            margin-right: 1rem;
+        }
+    }   
+}

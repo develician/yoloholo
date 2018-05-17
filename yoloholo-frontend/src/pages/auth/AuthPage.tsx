@@ -1,14 +1,12 @@
 import * as React from 'react';
 import PageTemplate from 'components/common/PageTemplate';
 
-const HomePage = () => {
+const AuthPage = () => {
     return (
         <PageTemplate>
-            <div>
-                Hey!
-            </div>
+            auth
         </PageTemplate>
     );
 };
 
-export default HomePage;
+export default AuthPage;

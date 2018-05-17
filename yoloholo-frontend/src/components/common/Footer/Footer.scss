@@ -1,0 +1,16 @@
+
+@import 'utils';
+
+.footer {
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+    background: $oc-gray-4;
+    align-items: center;
+    justify-content: center;
+    .logo {
+        font-size: 1.5rem;
+        cursor: pointer;
+
+    }
+}
